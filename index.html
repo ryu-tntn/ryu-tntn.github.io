@@ -5,28 +5,53 @@
     <title>たぬたぬ</title>
   </head>
   <body>
-    <div class="main">
-      <h1 class="title">プログラム猛者を目指す漢</h1>
-      <h2>「HTML & CSS　初級」の勉強内容まとめ（製作中）</h2>
-      <p>hは見出し，pは段落（見出し以外に使う），aはリンク（下記参照，href=""で指定）</p>
-      <a href="https://www.youtube.com/user/TokaiOnAir">東海オンエアへ</a>
-      <p>↑クリックすると東海オンエアのYouTubeチャンネルに飛べる！ </p>
+    <div class="title">
+      <h1 class="title first">プログラミン猛者を目指す漢(ver1.0)</h1>
+      <h1 class="title second">改め,プログラミングを頑張ります．(ver1.1)</h1>
+    </div>
+    <div class="main1">
+      <h2>「HTML & CSS 初級」の勉強内容まとめ(製作中)</h2>
+      <p>hは見出し,pは段落(見出し以外に使う),aはリンク(下記参照,href=""で指定),<span class="ex">例えば</span></p>
+      <h3>たぬたぬの好きなYouTubeチャンネルランキング！</h3>
+      <ol>
+        <li><a  class="block tokai" href="https://www.youtube.com/user/TokaiOnAir">東海オンエア</a></li>
+        <p>理由：おもしろい</p>
+        <li><a  class="block emi" href="https://www.youtube.com/@emk_oooo">えみ姉</a></li>
+        <p>理由：あまんが好きだから</p>
+        <li><a  class="block ryo" href="https://www.youtube.com/@ryogakucho">両学長　リベラルアーツ大学</a></li>
+        <p>理由：おもしろい↑あまんは絶対クリックしろ！！！</p>
+      </ol>
+      <p>↑クリックするとYouTubeチャンネルに飛べるぞい！！ </p>
       <img src="tokai.png">
       <p>ul(ol)とliの組み合わせで箇条書きを表現できる(list-style:none;にすると点or数字を消せる)</p>
-      <ul>
-        <li class="tokai">東海オンエア</li>
-        <li class="kimagure">気まぐれクック</li>
-        <li class="mikuru">朝倉未来</li>
+
       </ul>
       <p>CSSではfont-size,font-family(スペースがあるものはダブルクオーテーションで囲む),color,background-color, width, height,float,padding,marginを指定できる</p>
-      <p>htmlの中にhead（文字コード指定,ページタイトル設定，CSSの読み込み）とbodyがある</p>
-      <p>aやspanはインライン要素（改行が入らない）.文中の特定の文字列をspanで囲み，色を指定することが出来る</p>
+      <p>htmlの中にhead(文字コード指定,ページタイトル設定,CSSの読み込み)とbodyがある</p>
+      <p>aやspanはインライン要素(改行が入らない).文中の特定の文字列をspanで囲み,色を指定することが出来る</p>
       <p>border-bottom:2px solid #dee7ec;とすることでボーダーをつけることが出来る</p>
       <p>input(typeとvalue)とtextareaについて</p>
-      <p>input要素（まだ何も起きない）</p>
+      <p>input要素(まだ何も起きない)</p>
       <input type="submit" value="たぬたぬボタン">
-      <p>textarea要素（まだ何も起きない，文字が打てるだけ）</p>
+      <p>textarea要素(まだ何も起きない,文字が打てるだけ)</p>
       <textarea></textarea>
+    </div>
+    <div class="main2">
+      <h2>「HTML & CSS 中級」の勉強内容まとめ</h2>
+      <img  class="swl"src="test3.gif" alt="">
+      <p>背景に画像を表示するにはcssでbackground-image:url();を使用する．</p>
+      <p>background-size:coverを指定することで丁度良くなる</p>
+      <p>margin:autoで中央寄せにできる．(必ずwidthを指定すること)</p>
+      <p>ここで<span class="tntn">たぬたぬ</span>が最近作成したgifを掲載</p>
+      <p>opacity(0～1)を使用することで透明度を設定できる</p>
+      <p>letter-spacingを使用することで文字の間隔をせっていすることが出来る</p>
+      <p>[ボタンの作成]aタグはインライン要素でありwidthやheightを指定出来ない⇒インラインブロック化</p>
+      <p>display:block, display:inline-blockとする</p>
+      <p>classにスペースを使うと便利⇒例えばbtn blue, btn redとすると,.btnとすれば両方,blueとすればbtn blueのみ選択できる</p>
+      <p>カーソルが乗ったときの状態はcssでセレクタ(クラス等):hover{}とする</p>
+      <p>border-radiusを指定することで,角を丸くすることが出来る</p>
+      <p>text-align:centerなどで,テキスト,インライン要素,インラインブロック要素の配置を指定することが出来る．margin:0 autoでも可/p>
+
     </div>
   </body>
 </html>
