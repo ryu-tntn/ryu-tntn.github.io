@@ -1,20 +1,80 @@
-.main{
-    background-color:#ceccf3;
-    height:1000px;
+/*　タイトル　*/
+.title{
+  background-color:aliceblue;
+}
+.first{
+  color:aqua;
+}
+.second{
+  color:aquamarine;
 }
 
-.title {
-    color:red;
-  }
+/*　メイン1　*/
+.ex{
+  color:red;
+}
+.block{
+  display:block;
+  font-size:30px
+}
+.tokai{
+  color:orange;
+  text-align: center;
+}
+.tokai:hover{
+  background-color: coral;
+  color:crimson;
+}
+.emi{
+  color:pink;
+  text-align: center;
+}
+.emi:hover{
+  background-color:darkorchid;
+  color:deeppink;
+  opacity:0.5;
+}
+.ryo{
+  color:blueviolet;
+  text-align: center;
+}
+.ryo:hover{
+  background-color:gold;
+  color:lightgray;
+}
+
+
+.main{
+  background-color:#ceccf3;
+  height:1100px;
+}
+
 img{
-    width:500px;
+  width:500px;
 }
 .tokai {
-    color:orange;
+  color:orange;
 }
 .kimagure{
-    color:blue;
+  color:blue;
 }
 .mikuru{
-    color:red;
+  color:red;
+}
+
+.main2{
+  background-image:url(space.jpg);
+  background-size: cover;
+  color:yellow;
+  margin-top:80px;
+}
+
+.tntn{
+  color:red;
+}
+
+.swl{
+  float:right;
+  height:400px;
+  width:400px;
 }
